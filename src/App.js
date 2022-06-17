@@ -34,7 +34,6 @@ class App extends Component {
         <Navbar />
         <div className="container">
           <div className="row">
-
             {this.state.pizze.map(pizza => (
               <Menu
                 key={pizza.id}
